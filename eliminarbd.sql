@@ -34,14 +34,14 @@ DROP DOMAIN m.entero_mayor_cero;
 
 
 /*
-REVOKE ALL ON SCHEMA ERP FROM admin;
-REVOKE ALL ON SCHEMA ERP FROM empleado;
+REVOKE ALL ON SCHEMA m FROM admin;
+REVOKE ALL ON SCHEMA m FROM estudiante;
 
-DROP USER trabajador;
-DROP USER administrador;
+DROP USER programador;
+DROP USER coordinador;
 
 DROP ROLE admin;
-DROP ROLE empleado;*/
+DROP ROLE estudiante;*/
 
 
 DROP SCHEMA m;
